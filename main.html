@@ -16,7 +16,10 @@
   --width:50vh;
   --height:50vh
 }
-
+   button{
+    border:none;
+    cursor: pointer;
+   }
     .board{
       display: grid;
       width:var(--width);
@@ -99,8 +102,8 @@
    <div class="cells" id = "cell-9"></div>
   </div>
   <div class="winning">
-    <div class="message">message</div>
-    <div class="restart">Restart</div>
+    <button class="message">message</button>
+    <button class="restart">Restart</button>
   </div>
   <script>
     let player = 0;
